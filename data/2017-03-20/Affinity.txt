@@ -1,0 +1,29 @@
+4 Arcbound Ravager
+3 Etched Champion
+1 Master of Etherium
+3 Memnite
+4 Ornithopter
+4 Signal Pest
+1 Spellskite
+4 Steel Overseer
+4 Vault Skirge
+4 Cranial Plating
+4 Galvanic Blast
+4 Mox Opal
+4 Springleaf Drum
+4 Blinkmoth Nexus
+4 Darksteel Citadel
+4 Inkmoth Nexus
+4 Spire of Industry
+sideboard
+1 Dismember
+1 Ghirapur Aether Grid
+2 Grafdigger's Cage
+2 Hangarback Walker
+2 Hurkyl's Recall
+1 Master of Etherium
+2 Metallic Rebuke
+1 Nihil Spellbomb
+1 Spellskite
+1 Thoughtseize
+1 Whipflare

@@ -1,0 +1,33 @@
+4 Death's Shadow
+3 Gurmag Angler
+4 Snapcaster Mage
+4 Street Wraith
+1 Tasigur, the Golden Fang
+2 Liliana, the Last Hope
+1 Island
+1 Swamp
+4 Flooded Strand
+2 Godless Shrine
+1 Hallowed Fountain
+4 Marsh Flats
+4 Polluted Delta
+2 Watery Grave
+3 Fatal Push
+1 Orzhov Charm
+3 Path to Exile
+2 Stubborn Denial
+4 Thought Scour
+2 Inquisition of Kozilek
+4 Serum Visions
+4 Thoughtseize
+sideboard
+1 Engineered Explosives
+2 Nihil Spellbomb
+1 Detention Sphere
+2 Stony Silence
+1 Disenchant
+1 Path to Exile
+2 Stubborn Denial
+2 Geist of Saint Traft
+2 Collective Brutality
+1 Damnation

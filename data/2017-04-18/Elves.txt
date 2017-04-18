@@ -1,0 +1,31 @@
+3 Walking Ballista
+4 Dwynen's Elite
+1 Elves of Deep Shadow
+4 Elvish Archdruid
+1 Elvish Champion
+4 Elvish Mystic
+4 Heritage Druid
+4 Llanowar Elves
+3 Nettle Sentinel
+4 Shaman of the Pack
+2 Ezuri, Renegade Leader
+2 Glissa, the Traitor
+5 Forest
+4 Blooming Marsh
+2 Cavern of Souls
+4 Gilt-Leaf Palace
+1 Overgrown Tomb
+2 Nykthos, Shrine to Nyx
+4 Collected Company
+3 Lead the Stampede
+sideboard
+1 Tormod's Crypt
+1 Spellskite
+2 Scavenging Ooze
+2 Abrupt Decay
+1 Beast Within
+2 Fracturing Gust
+3 Heroic Intervention
+1 Surgical Extraction
+1 Melira, Sylvok Outcast
+1 Creeping Corrosion

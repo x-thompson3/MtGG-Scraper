@@ -1,0 +1,33 @@
+4 Bloodghast
+4 Golgari Thug
+1 Haunted Dead
+4 Insolent Neonate
+4 Narcomoeba
+4 Prized Amalgam
+1 Scourge Devil
+4 Stinkweed Imp
+2 Snow-Covered Mountain
+1 Blackcleave Cliffs
+2 Blood Crypt
+2 Bloodstained Mire
+4 Copperline Gorge
+2 Dakmor Salvage
+1 Steam Vents
+2 Stomping Ground
+4 Wooded Foothills
+4 Cathartic Reunion
+3 Conflagrate
+4 Faithless Looting
+3 Life from the Loam
+sideboard
+1 Vengeful Pharaoh
+1 Ancient Grudge
+1 Darkblast
+1 Gnaw to the Bone
+1 Golgari Charm
+1 Lightning Axe
+2 Memory's Journey
+2 Natural State
+1 Nature's Claim
+2 Collective Brutality
+2 Duress

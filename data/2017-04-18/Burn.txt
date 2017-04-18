@@ -1,0 +1,26 @@
+4 Goblin Guide
+4 Monastery Swiftspear
+4 Eidolon of the Great Revel
+2 Mountain
+4 Arid Mesa
+3 Bloodstained Mire
+3 Inspiring Vantage
+2 Sacred Foundry
+2 Stomping Ground
+4 Wooded Foothills
+4 Atarka's Command
+4 Boros Charm
+4 Lightning Bolt
+2 Lightning Helix
+3 Searing Blaze
+3 Skullcrack
+4 Lava Spike
+4 Rift Bolt
+sideboard
+1 Grafdigger's Cage
+2 Kor Firewalker
+2 Rest in Peace
+1 Stony Silence
+3 Deflecting Palm
+3 Destructive Revelry
+3 Path to Exile

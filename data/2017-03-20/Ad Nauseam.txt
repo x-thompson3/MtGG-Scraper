@@ -1,0 +1,31 @@
+1 Laboratory Maniac
+4 Simian Spirit Guide
+4 Ad Nauseam
+4 Angel's Grace
+1 Lightning Storm
+4 Lotus Bloom
+3 Pact of Negation
+4 Pentad Prism
+3 Phyrexian Unlife
+4 Serum Visions
+1 Slaughter Pact
+3 Sleight of Hand
+3 Spoils of the Vault
+1 Boseiju, Who Shelters All
+4 City of Brass
+1 Darkslick Shores
+4 Gemstone Mine
+1 Island
+1 Plains
+4 Seachrome Coast
+3 Temple of Deceit
+2 Temple of Enlightenment
+sideboard
+1 Duress
+2 Grave Titan
+3 Holy Day
+2 Hurkyl's Recall
+4 Leyline of Sanctity
+1 Patrician's Scorn
+1 Teferi, Mage of Zhalfir
+1 Vendilion Clique
