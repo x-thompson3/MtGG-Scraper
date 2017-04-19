@@ -18,8 +18,8 @@ class Deck():
         """Deck Constructor Method:
             Acceptable """
         if data is None:
-            self.main = PD.DataFrame()
-            self.side = PD.DataFrame()
+            self.mainboard = PD.DataFrame()
+            self.sideboard = PD.DataFrame()
             self.name = ""  
             self.date = dt.date.today()
         elif isinstance(data, str):
@@ -37,20 +37,20 @@ class Deck():
                     for card in m:
                         if(card != ''):
                             c = card.find(" ")
-                            cnum  = card[:c]
+                            cnum  = int(card[:c])
                             cname = card[c+1:]
                             mb.append((cname,cnum))
-                    self.main = PD.DataFrame(data=mb, columns=['Card','#'])
+                    self.mainboard = PD.DataFrame(data=mb, columns=['Card','#'])
                     sb = []
                     for card in s:
                         if(card != ''):
                             c = card.find(" ")
-                            cnum  = card[:c]
+                            cnum  = int(card[:c])
                             cname = card[c+1:]
                             sb.append((cname,cnum))
-                    self.side = PD.DataFrame(data=sb, columns=['Card','#'])                
+                    self.sideboard = PD.DataFrame(data=sb, columns=['Card','#'])                
             else:
-                print("not a .txt!")
+                print("not a text file: "+data.split(".")[-1])
         elif isinstance(data, list):
             print("List file!")
         else:
@@ -59,36 +59,46 @@ class Deck():
     def __str__(self):
         toreturn = "Deck: "+self.name+"\n"
         #iterate over decklist
-        for x in self.main.iterrows():
-            toreturn += x[1]['#'] + "x " + x[1]['Card'] + "\n"
+        for x in self.mainboard.iterrows():
+            toreturn += str(x[1]['#']) + "x " + x[1]['Card'] + "\n"
         toreturn += "Sideboard:\n"
-        for x in self.side.iterrows():
-            toreturn += x[1]['#'] + "x " + x[1]['Card'] + "\n"
+        for x in self.sideboard.iterrows():
+            toreturn += str(x[1]['#']) + "x " + x[1]['Card'] + "\n"
         return toreturn
     
     def diff(self, otherDeck):
         '''returns as a DataFrame the card differences between the current
         deck and the passed deck. RIGHT NOW IT IS MAINBOARD ONLY, BUT IN THE
-        FUTURE IT SHOULD ALSO LOOK AT SIDEBOARD'''
+        FUTURE IT SHOULD ALSO CONSIDER THE SIDEBOARD'''
         
-        pass
+        
     
     def getMB(self):
         '''returns the mainboard as a DataFrame'''
-        pass
+        return self.mainboard
     
     def getSB(self):
         '''returns the sideboard as a DataFrame'''
-        pass
+        return self.sideboard
     
-    def count(self, cardname: str):
-        '''Returns the number of cards with name cardname in the main and sideboards'''
-        pass
-    
-    def has(self, cardname: str):
-        return (self.count(cardname) != 0)
-
-    
-d = Deck(name="Winner Deck",data="blah.txt")     
-print(d)      
+    def count(self, cardname: str, mo=False):
+        '''Returns the number of cards with name cardname in the mainboard
+        and optionally the sideboard'''
+        c = 0
+        if(self.has_mb):
+            c += self.mainboard[self.mainboard.Card == cardname]['#'][0]
+        if(mo and self.has_sb):
+            c += self.sideboard[self.sideboard.Card == cardname]['#'][0]
+        return c
             
+    def has_mb(self, cardname: str):
+        return (not self.mainboard.get(self.mainboard.Card == cardname).empty)
+
+    def has_sb(self, cardname: str):
+        return (not self.mainboard.get(self.mainboard.Card == cardname).empty)
+
+    def has(self, cardname: str):
+        return self.has_mb(cardname) and self.has_sb(cardname)
+    
+d = Deck(name="One Deck",data="test1.txt")  
+od = Deck(name="Other Deck", data="test2.txt")

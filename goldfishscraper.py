@@ -70,8 +70,6 @@ def getDecklists(urls):
         response = UReq.urlopen(u).read()
         soup = BS(response, 'html.parser')
         dl = soup.find('input',attrs={'id':"deck_input_deck"}).get('value')
-        #print('\n',name,'\n',dl,sep='')
-        #decklists.append((name,dl))
         f = open(today+'/'+name+'.txt','w')
         f.write(dl)
         f.close()
