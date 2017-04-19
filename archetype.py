@@ -70,6 +70,11 @@ class Deck():
         '''returns as a DataFrame the card differences between the current
         deck and the passed deck. RIGHT NOW IT IS MAINBOARD ONLY, BUT IN THE
         FUTURE IT SHOULD ALSO CONSIDER THE SIDEBOARD'''
+        tm = self.mainboard
+        om = otherDeck.getMB()
+        d = tm.merge(om, on="Card", how='outer')
+        print(d)
+        print(d.get())
         
         
     
@@ -100,5 +105,6 @@ class Deck():
     def has(self, cardname: str):
         return self.has_mb(cardname) and self.has_sb(cardname)
     
-d = Deck(name="One Deck",data="test1.txt")  
-od = Deck(name="Other Deck", data="test2.txt")
+d = Deck(name="One Deck",data="test1d.txt")  
+od = Deck(name="Other Deck", data="test2d.txt")
+d.diff(od)
