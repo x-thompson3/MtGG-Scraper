@@ -1,0 +1,40 @@
+4 Sakura-Tribe Elder
+1 Snapcaster Mage
+2 Forest
+3 Island
+1 Mountain
+1 Plains
+2 Breeding Pool
+1 Cinder Glade
+1 Flooded Grove
+3 Misty Rainforest
+1 Prairie Stream
+4 Steam Vents
+4 Stomping Ground
+2 Valakut, the Molten Pinnacle
+3 Anticipate
+3 Cryptic Command
+1 Dispel
+1 Izzet Charm
+1 Pull from Tomorrow
+1 Quicken
+4 Remand
+1 Repeal
+1 Anger of the Gods
+4 Bring to Light
+2 Farseek
+1 Ranger's Path
+3 Scapeshift
+4 Search for Tomorrow
+1 Supreme Verdict
+sideboard
+3 Obstinate Baloth
+2 Blessed Alliance
+1 Counterflux
+2 Nature's Claim
+2 Negate
+1 Pulse of Murasa
+1 Surrak Dragonclaw
+1 Nissa, Vital Force
+1 Creeping Corrosion
+1 Crumble to Dust

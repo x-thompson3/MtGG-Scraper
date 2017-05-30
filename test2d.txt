@@ -1,4 +1,6 @@
 4 Death's Shadow
 2 Grim Flayer
+1 Ghor-Clan Rampager
+1 Thoughtseize
 sideboard
 1 Grafdigger's Cage

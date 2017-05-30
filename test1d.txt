@@ -1,4 +1,6 @@
 4 Death's Shadow
+1 Grim Flayer
 2 Ghor-Clan Rampager
+1 Traverse the Ulvenwald
 sideboard
 1 Nihil Spellbomb
