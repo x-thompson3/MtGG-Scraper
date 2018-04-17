@@ -82,7 +82,7 @@ def getDecklists(urls):
 
 def print_a(arch: list):
     """Display the date and the contents of arch"""
-    print('print_a called')
+    # TODO: display the date and the contents for an archetype
     pass
 
 def saveArchText(d: dt.date, arch: PD.DataFrame):
@@ -102,15 +102,18 @@ def saveArchText(d: dt.date, arch: PD.DataFrame):
     print(' done')
 
 def openArchText(fname):
+    # TODO: open from a text file
     pass
 
 def saveArchPickle(d:dt.date, arch: PD.DataFrame):
     """save to a file the date and the contents of arch"""
+    # TODO: write to a pickle file
     print('Saving meta breakdown to a textfile . . . ', end='\n')
     arch.to_pickle(str(d))
     print('done')
 
 def openArchPickle(fname):
+    # TODO: read from a pickle file
     pass
 
 def begin():

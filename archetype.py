@@ -115,9 +115,9 @@ class Deck():
         '''Returns the number of cards with name cardname in the mainboard
         and optionally the sideboard'''
         c = 0
-        if(self.has_mb):
+        if(self.has_mb(cardname)):
             c += self.mainboard[self.mainboard.Card == cardname]['#'][0]
-        if(mo and self.has_sb):
+        if(mo and self.has_sb(cardname)):
             c += self.sideboard[self.sideboard.Card == cardname]['#'][0]
         return c
 
@@ -131,7 +131,8 @@ class Deck():
         return self.has_mb(cardname) and self.has_sb(cardname)
 
 if __name__ == '__main__':
-    #main()
-    d = Deck(name="One Deck",data="test1d.txt")
-    od = Deck(name="Other Deck", data="test2d.txt")
-    d.diff(od)
+    pass
+    # main()
+    # d = Deck(name="One Deck",data="test1d.txt")
+    # od = Deck(name="Other Deck", data="test2d.txt")
+    # d.diff(od)
