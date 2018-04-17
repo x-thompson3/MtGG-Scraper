@@ -102,7 +102,6 @@ class Deck():
         print(minus,'\n\n')
         print(plus)
 
-
     def getMB(self):
         '''returns the mainboard as a DataFrame'''
         return self.mainboard
@@ -122,17 +121,17 @@ class Deck():
         return c
 
     def has_mb(self, cardname):
-        return (not self.mainboard.get(self.mainboard.Card == cardname).empty)
+        return len(self.mainboard[self.mainboard.Card == cardname]) == 1
 
     def has_sb(self, cardname):
-        return (not self.mainboard.get(self.mainboard.Card == cardname).empty)
+        return len(self.sideboard[self.sideboard.Card == cardname]) == 1
 
     def has(self, cardname):
-        return self.has_mb(cardname) and self.has_sb(cardname)
+        return (self.has_mb(cardname) or self.has_sb(cardname))
 
 if __name__ == '__main__':
     pass
     # main()
-    # d = Deck(name="One Deck",data="test1d.txt")
-    # od = Deck(name="Other Deck", data="test2d.txt")
-    # d.diff(od)
+    d = Deck(name="One Deck",data="test1d.txt")
+    od = Deck(name="Other Deck", data="test2d.txt")
+    print(d.diff(od))
