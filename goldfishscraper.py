@@ -126,4 +126,7 @@ def begin():
     print('= all done =')
 
 if __name__ == '__main__':
-    begin()
+    try:
+        begin()
+    except Exception as e:
+        print("{}".format(e))
